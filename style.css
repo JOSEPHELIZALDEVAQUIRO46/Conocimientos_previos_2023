@@ -102,7 +102,7 @@ body{
 }
 
 .Sub{
-    text-align: left;
+    text-align: center;
     color: #f0f0f0;
 }
 .comandos-html {
@@ -112,6 +112,7 @@ body{
     padding: 10px;
     border-radius: 8px;
     line-height: 1.5;
+    text-align: left;
 }
 
 

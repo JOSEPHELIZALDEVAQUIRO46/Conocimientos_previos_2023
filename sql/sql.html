@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>MYSQL</title>
+</head>
+<body>
+    <h1 class="title">MYSQL</h1>
+    <h4 class="Sub">MySQL es un sistema de administración de bases de datos relacionales.
+         Es un software de código abierto desarrollado por Oracle. Se considera como 
+         la base de datos de código abierto más utilizada en el mundo.</h4>
+  <h3 class="comandos-html">Numéricos:<h3></h3>
+  <p class="comandos-html">
+    INT: Almacena números enteros sin decimales. <br>
+    DECIMAL: Almacena números decimales con una precisión específica. <br>
+    FLOAT: Almacena números de coma flotante de precisión simple. <br>
+    REAL: Almacena números de coma flotante de precisión doble. <br>
+    NUMERIC: Almacena números decimales con una escala y precisión específicas. <br>
+    BIT: Almacena valores booleanos (TRUE o FALSE).
+    duberney lopez lopez
+	
+21:36 (hace 8 minutos)
+	
+para mí
+Tipos de datos en SQL:
+
+1. Numéricos:
+
+    INT: Almacena números enteros sin decimales.
+    DECIMAL: Almacena números decimales con una precisión específica.
+    FLOAT: Almacena números de coma flotante de precisión simple.
+    REAL: Almacena números de coma flotante de precisión doble.
+    NUMERIC: Almacena números decimales con una escala y precisión específicas.
+    BIT: Almacena valores booleanos (TRUE o FALSE). <br>
+
+Ejemplos: <br>
+
+    edad INT: Almacena la edad de una persona como un número entero. <br>
+    precio DECIMAL(10,2): Almacena el precio de un producto con dos decimales. <br>
+    saldo FLOAT: Almacena el saldo de una cuenta bancaria como un número de coma flotante.
+  <h3 class="comandos-html">Caracteres:<h3></h3>
+  <p class="comandos-html">
+    CHAR(n): Almacena una cadena de caracteres de longitud fija n. <br>
+    VARCHAR(n): Almacena una cadena de caracteres de longitud variable hasta n caracteres. <br>
+    TEXT: Almacena grandes cantidades de texto. <br>
+    NCHAR(n): Almacena una cadena de caracteres Unicode de longitud fija n. <br>
+    NVARCHAR(n): Almacena una cadena de caracteres Unicode de longitud variable hasta n caracteres. <br>
+
+Ejemplos:
+
+    nombre VARCHAR(255): Almacena el nombre de una persona con una longitud máxima de 255 caracteres. <br>
+    direccion TEXT: Almacena la dirección de una persona como un texto largo. <br>
+    descripcion NVARCHAR(1000): Almacena la descripción de un producto con caracteres Unicode.
+  </p>
+  <h3 class="comandos-html">Fechas:<h3></h3>
+  <p class="comandos-html">
+    DATE: Almacena fechas sin hora. <br>
+    TIME: Almacena horas sin fecha. <br>
+    DATETIME: Almacena fechas y horas juntas. <br>
+    TIMESTAMP: Almacena fechas y horas con precisión de milisegundos. <br>
+
+Ejemplos: <br>
+
+    fecha_nacimiento DATE: Almacena la fecha de nacimiento de una persona. <br>
+    hora_entrada TIME: Almacena la hora de entrada de un empleado. <br>
+    fecha_registro DATETIME: Almacena la fecha y hora de registro de un usuario.
+  </p>
+  <h3 class="comandos-html">Modificadores:<h3></h3>
+  <p class="comandos-html">
+    NOT NULL: Indica que el campo no puede ser nulo. <br>
+    UNIQUE: Indica que cada valor en el campo debe ser único. <br>
+    DEFAULT: Especifica un valor predeterminado para el campo. <br>
+    PRIMARY KEY: Indica que el campo es la clave principal de la tabla. <br>
+    FOREIGN KEY: Indica que el campo es una clave foránea que referencia otra tabla. <br>
+
+Ejemplos: <br>
+
+    id INT NOT NULL PRIMARY KEY: El campo id es un número entero que no puede ser nulo y es la clave principal de la tabla. <br>
+    nombre VARCHAR(255) UNIQUE: El campo nombre no puede contener valores duplicados. <br>
+    correo_electronico VARCHAR(255) DEFAULT 'ejemplo@correo.com': El campo correo_electronico tiene un valor predeterminado de ejemplo@correo.com si no se especifica otro.
+  </p>
+  <h3 class="comandos-html">Listas:<h3></h3>
+  <p class="comandos-html">
+    En SQL, no existe un tipo de dato específico para las listas. Sin embargo, hay varias formas de almacenar listas de datos, como: <br>
+
+    Usando una tabla separada: Cada elemento de la lista se almacena como una fila en una tabla separada. <br>
+    Usando un tipo de dato de cadena: La lista se almacena como una cadena de caracteres separada por comas u otro delimitador. <br>
+
+La mejor manera de almacenar una lista en SQL dependerá de las necesidades específicas de la aplicación.
+  </p>
+  <a href="/index.html"><button class="js-button">HOME</button></a>
+</body>
+</html>
